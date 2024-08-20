@@ -1,0 +1,197 @@
+@media (max-width: 576px) {
+    #intro h1 {
+        font-size: 7em;
+    }
+
+    #intro #cafe {
+        width: 38em;
+        top: 2em;
+    }
+
+    #cafe-text1 {
+        font-size: 0.9em;
+        top: 28em;
+    }
+
+    #seta-esquerda {
+        right: 5em;
+        top: 21em;
+        transform: rotate(45deg);
+    }
+
+    #intro #seta-direita,
+    #seta-esquerda {
+    width: 5em;
+    }
+
+    #intro #seta-direita {
+        left: 5em;
+    }
+
+    #cafe-text2 {
+        font-size: 0.9em;
+        top: 28em;
+    }
+}
+
+@media (max-width: 515px) {
+    #cafe-text2 {
+        font-size: 0.7em;
+        top: 36em;
+    }
+
+    #seta-esquerda {
+        right: 4em;
+        top: 21em;
+        transform: rotate(45deg);
+    }
+
+    #cafe-text1 {
+        font-size: 0.7em;
+        top: 36em;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    #intro h1 {
+        font-size: 8em;
+    }
+
+    #intro #cafe {
+        width: 38em;
+        top: 2em;
+    }
+
+    #cafe-text1 {
+        font-size: 0.9em;
+        top: 28em;
+    }
+
+    #seta-esquerda {
+        right: 5em;
+        top: 21em;
+        transform: rotate(45deg);
+    }
+
+    #intro #seta-direita,
+    #seta-esquerda {
+    width: 5em;
+    }
+
+    #intro #seta-direita {
+        left: 5em;
+    }
+
+    #cafe-text2 {
+        font-size: 0.9em;
+        top: 28em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #cafe-text2 {
+        font-size: 0.9em;
+        top: 32em;
+    }
+
+    #cafe-text1 {
+        font-size: 0.9em;
+        top: 32em;
+    }
+
+    #intro #cafe {
+        width: 45em;
+        top: 3em;
+    }
+
+    #intro #seta-direita {
+        left: 5em;
+        top: 25em;
+    }
+
+    #seta-esquerda {
+        right: 5em;
+        top: 25em;
+        transform: rotate(30deg);
+    }
+
+    #intro #seta-direita,
+    #seta-esquerda {
+    width: 5em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #cafe-text2 {
+        font-size: 0.9em;
+        top: 25em;
+    }
+
+    #cafe-text1 {
+        font-size: 0.9em;
+        top: 25em;
+    }
+
+    #intro #seta-direita {
+        left: 12em;
+        top: 20em;
+    }
+
+    #seta-esquerda {
+        right: 12em;
+        top: 19em;
+        transform: rotate(0deg);
+    }
+
+    #intro #seta-direita,
+    #seta-esquerda {
+    width: 7em;
+    }
+
+    #intro h1 {
+        font-size: 9em;
+    }
+
+    #intro #cafe {
+        width: 45em;
+        top: 3em;
+    }
+}
+
+@media (max-width: 483px) {
+    #intro h1 {
+        font-size: 5em;
+    }
+
+    #intro #cafe {
+        width: 30em;
+        top: 1em;
+    }
+
+    #intro #seta-direita,
+    #seta-esquerda {
+    width: 3em;
+    }
+
+    #seta-esquerda {
+        right: 3em;
+        top: 17em;
+        transform: rotate(45deg);
+    }
+
+    #intro #seta-direita {
+        left: 3em;
+        top: 17em;
+        transform: rotate(-35deg);
+    }
+
+    #cafe-text1 {
+        font-size: 0.6em;
+        top: 33em;
+    }
+
+    #cafe-text2 {
+        font-size: 0.6em;
+        top: 33em;
+    }
+}

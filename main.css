@@ -1,0 +1,152 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fffbeb;
+}
+
+.section-title {
+    font-family: "League Spartan", sans-serif;
+}
+
+.color-text {
+    color: #f59e0b;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    color: #fffbeb;
+}
+
+.navbar-brand:hover {
+    cursor: pointer;
+    color: #fffbeb;
+}
+
+.navbar {
+    background-color: #f59e0b;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+
+#cabecalho .nav .nav-link {
+    color: #fffbeb;
+}
+
+.navbar-toggler {
+    background-color: #fffbeb;
+}
+
+#intro {
+    background-color: #f59e0b;
+    height: 650px;
+    width: 100%;
+    overflow: hidden
+}
+
+#intro h1 {
+    color: #fffbeb;
+    font-size: 10em;
+    line-height: 0.7em;
+    top: -0.0em;
+}
+
+
+#intro #cafe {
+    width: 50em;
+    top: 4em;
+}
+
+#intro-part1 {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro #seta-direita,
+#seta-esquerda {
+    width: 7em;
+    opacity: 70%;
+}
+
+#seta-esquerda {
+    right: 15em;
+    top: 21em;
+}
+
+#intro #seta-direita {
+    left: 13em;
+    top: 21em;
+}
+
+#cafe-text1 {
+    left: 1em;
+    top: 25em;
+    color: #fffbeb;
+}
+
+#cafe-text2 {
+    right: 0em;
+    top: 25em;
+    color: #fffbeb;
+}
+
+.nav-cardapio .nav-link.active,
+.nav-preco .nav-link.active,
+#fale-conosco button {
+    background-color: #f59e0b;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link.active:hover,
+.nav-preco .nav-link.active:hover {
+    color: #fffbeb;
+}
+
+.nav-cardapio .nav-link:hover,
+.nav-preco .nav-link:hover {
+    color: #f59e0b;
+}
+
+#sobre-o-espaco {
+    background-color: #f59f0b18;
+}
+
+.custom-border{
+    border: 2px solid #f59e0b;
+}
+
+#processos,
+footer {
+    background-color: #f59e0b;
+}
+
+.color-text2 {
+    color: #fffbeb;
+}
+
+#processos .card img {
+    height: 18em;
+}
+
+#processos .card {
+    background-color: #fffbeb;
+}
+
+#processos h2 {
+    border-bottom: 1px solid #fffbeb;
+}
+
+#fale-conosco textarea {
+    resize: none;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}

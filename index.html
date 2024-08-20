@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css" media="screen">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fw-bold section-title">
+                FlipSide
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-center" id="menu-navegacao">
+                <ul class="nav nav-underline d-block d-lg-flex">
+                    <li class="nav-item me-5">
+                        <a href="#sobre-a-cafeteria" class="nav-link">
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a href="#sobre-o-espaco" class="nav-link">
+                            Espaço
+                        </a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a href="#cardapio" class="nav-link">
+                            Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a href="#processos" class="nav-link">
+                            Processos
+                        </a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a href="#fale-conosco" class="nav-link">
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="intro" class="pt-5 pb-5 shadow">
+            <div class="container">
+                <div id="intro-part1" class="position-relative">
+                    <h1 class="m-0 fw-bold section-title text-uppercase z-1 position-absolute">
+                        Café <br> <span class="text-body-secondary">Premium</span>
+                    </h1>
+                    <img src="/img/intro-img.png" id="cafe" class="z-2 position-absolute" alt="café" >
+                    <img src="/img/seta.png" id="seta-direita" class="z-2 position-absolute" alt="seta para direita" >
+                    <img src="/img/seta1.png" id="seta-esquerda" class="z-2 position-absolute" alt="seta para esquerda" >
+                    <p id="cafe-text1" class="text-start z-2 position-absolute lh-sm">Nosso café, selecionado<br> por verdadeiros amantes,<br> é cultivado em altitudes elevadas<br> e torrado artesanalmente<br> para oferecer uma experiência<br> única de sabores <br>complexos e refinados. </p>
+                    <p id="cafe-text2" class="text-start z-2 position-absolute lh-sm">Um café de qualidade<br> é essencial para uma experiência<br> verdadeiramente prazerosa.<br> Ele proporciona aromas <br>intensos e sabores ricos,<br> transformando o ato de tomar café<br> em um momento de prazer e reflexão.</p>
+                </div>
+            </div>
+        </section>
+        <div class="pt-5 pb-5" id="sobre-a-cafeteria">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img src="/img/Foto-cafeteria.jpg" class="d-block mw-100 rounded" alt="foto da cafeteria">
+                    </div>
+                    <div class="col-lg-7">
+                        <h2 class="section-title fs-1 pt-4">Sobre <span class="color-text">a cafeteria</span></h2>
+                        <p class="lead pt-2">
+                            Em meio ao ritmo acelerado da metrópole, nossa cafeteria oferece um espaço 
+                            <span class="fst-italic">aconchegante e tranquilo</span>, ideal para uma pausa 
+                            <span class="fw-bold">revigorante</span> no seu dia. Com uma 
+                            <span class="fw-bold">localização central</span> e de fácil acesso, você 
+                            encontrará o refúgio perfeito para relaxar e recarregar as energias. O ambiente foi 
+                            cuidadosamente planejado para proporcionar uma experiência agradável, onde 
+                            <span class="fst-italic">cada detalhe contribui</span> para o seu conforto e bem-estar.
+                        </p>
+                        <p class="lead">
+                            Dentro da cafeteria, um toca-discos toca uma seleção de músicas ambiente, 
+                            criando uma atmosfera <span class="fw-bold">relaxante e envolvente</span>. 
+                            Além disso, nossa estante conta com uma curadoria especial de livros, que você 
+                            pode folhear e ler enquanto saboreia seu café. Seja para uma 
+                            <span class="fst-italic">rápida pausa</span> ou para um momento mais prolongado de 
+                            descanso, nosso espaço é o local ideal para apreciar uma bebida de qualidade em 
+                            um ambiente <span class="fw-bold">acolhedor e sofisticado</span>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="sobre-o-espaco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fs-1">Sobre <span class="color-text">o espaço</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-4">
+                        <img src="/img/vitrola.jpg" alt="vitrola" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title color-text fs-4">
+                            <i class="bi bi-vinyl-fill"></i>
+                            Música ambiente
+                        </h3>
+                        <p>
+                            Nossa cafeteria oferece um ambiente único, onde uma vitrola toca discos de música ambiente cuidadosamente selecionados, criando um clima relaxante e acolhedor. Essa trilha sonora suave é perfeita para acompanhar suas pausas e momentos de descontração, fazendo com que cada visita seja uma experiência tranquila e prazerosa.
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="/img/livros.jpg" alt="livros" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title color-text fs-4">
+                            <i class="bi bi-book-half"></i>
+                            Estante de livros
+                        </h3>
+                        <p>
+                            Temos uma estante especial com uma curadoria de livros que podem ser alugados, proporcionando uma leitura relaxante enquanto você saboreia seu café. Nossa seleção foi pensada para enriquecer seu tempo aqui, oferecendo opções que inspiram, entretêm e permitem uma pausa verdadeiramente revigorante.
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="/img/foto-cafe.jpg" alt="café" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title color-text fs-4">
+                            <i class="bi bi-cup-hot-fill"></i>
+                            Qualidade do Café
+                        </h3>
+                        <p>
+                            A qualidade do café é essencial para proporcionar uma experiência memorável. Selecionamos grãos cuidadosamente, garantindo que cada xícara ofereça um sabor que combine perfeitamente com o seu paladar. Nosso compromisso é trazer um café de alta qualidade, que eleve sua pausa e transforme cada gole em um momento de puro prazer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 fs-1">Nosso <span class="color-text">cardápio</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-lg-2 mb-3">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cardapio-cafe" class="fw-bold text-start nav-link color-text active rounded-pill">Café</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cardapio-cha" class="fw-bold text-start nav-link color-text rounded-pill">Chá</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cardapio-comida" class="fw-bold text-start nav-link color-text rounded-pill">Comidas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-lg-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="cardapio-cafe">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-3 card custom-border" style="width: 20rem;">
+                                        <img class=" card-img-top rounded-circle p-5"  style="width: 20rem; height: 20em;" src="/img/cafe-cardapio.jpg" alt="Café">
+                                        <div class="card-body">
+                                            <h5 class="fw-bold mt-2 card-title mb-3">
+                                                <div class="row">
+                                                    <div class="col text-start">
+                                                        Café Expresso
+                                                    </div>
+                                                    <div class="col text-end color-text">
+                                                        <div class="tab-content">
+                                                            <div class="tab-pane active" id="preco-cafe-p">
+                                                                R$8.00
+                                                            </div>
+                                                            <div class="tab-pane" id="preco-cafe-m">
+                                                                R$10.00
+                                                            </div>
+                                                            <div class="tab-pane" id="preco-cafe-g">
+                                                                R$12.00
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div></h5>
+                                            <p class="card-text text-body-secondary fs-6 lead lh-sm">
+                                                Nosso expresso é puro e intenso, feito com grãos selecionados e moídos na hora, oferecendo um sabor encorpado e uma crema aveludada.
+                                            </p>
+                                            <nav class="nav nav-pills justify-content-center nav-preco">
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-cafe-p" class="active nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">P.</h5>
+                                                        <i class="bi bi-cup-straw fs-5"></i>
+                                                    </button>
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-cafe-m" class="nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">M.</h5>
+                                                        <i class="bi bi-cup-straw fs-3"></i>
+                                                    </button>
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-cafe-g" class="nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">G.</h5>
+                                                        <i class="bi bi-cup-straw fs-1"></i>
+                                                    </button>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 card custom-border" style="width: 20rem;">
+                                        <img class=" card-img-top rounded-circle p-5"  style="width: 20rem; height: 20em;" src="/img/capuccino-cardapio.jpg" alt="Capuccino">
+                                        <div class="card-body">
+                                            <h5 class="fw-bold mt-2 card-title mb-3">
+                                                <div class="row">
+                                                    <div class="col text-start">
+                                                        Capuccino
+                                                    </div>
+                                                    <div class="col text-end color-text">
+                                                        <div class="tab-content">
+                                                            <div class="tab-pane active" id="preco-capuccino-p">
+                                                                R$8.00
+                                                            </div>
+                                                            <div class="tab-pane" id="preco-capuccino-m">
+                                                                R$10.00
+                                                            </div>
+                                                            <div class="tab-pane" id="preco-capuccino-g">
+                                                                R$12.00
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div></h5>
+                                            <p class="card-text text-body-secondary fs-6 lead lh-sm">
+                                                O capuccino é a perfeita harmonia entre expresso, leite cremoso e espuma suave, com um toque de cacau ou canela para um sabor equilibrado.
+                                            </p>
+                                            <nav class="nav nav-pills justify-content-center nav-preco">
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-capuccino-p" class="active nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">P.</h5>
+                                                        <i class="bi bi-cup-straw fs-5"></i>
+                                                    </button>
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-capuccino-m" class="nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">M.</h5>
+                                                        <i class="bi bi-cup-straw fs-3"></i>
+                                                    </button>
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-capuccino-g" class="nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">G.</h5>
+                                                        <i class="bi bi-cup-straw fs-1"></i>
+                                                    </button>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 card custom-border" style="width: 20rem;">
+                                        <img class=" card-img-top rounded-circle p-5"  style="width: 20rem; height: 20em;" src="/img/chocolate-carapio.jpg" alt="Chocolate Quente">
+                                        <div class="card-body">
+                                            <h5 class="fw-bold mt-2 card-title mb-3">
+                                                <div class="row">
+                                                    <div class="col text-start">
+                                                        Chocolate Quente
+                                                    </div>
+                                                    <div class="col text-end color-text">
+                                                        <div class="tab-content">
+                                                            <div class="tab-pane active" id="preco-chocolate-p">
+                                                                R$8.00
+                                                            </div>
+                                                            <div class="tab-pane" id="preco-chocolate-m">
+                                                                R$10.00
+                                                            </div>
+                                                            <div class="tab-pane" id="preco-chocolate-g">
+                                                                R$12.00
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div></h5>
+                                            <p class="card-text text-body-secondary fs-6 lead lh-sm">
+                                                Nosso chocolate quente é cremoso e reconfortante, feito com chocolate de alta qualidade e leite, trazendo calor e doçura em cada gole.
+                                            </p>
+                                            <nav class="nav nav-pills justify-content-center nav-preco">
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-chocolate-p" class="active nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">P.</h5>
+                                                        <i class="bi bi-cup-straw fs-5"></i>
+                                                    </button>
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-chocolate-m" class="nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">M.</h5>
+                                                        <i class="bi bi-cup-straw fs-3"></i>
+                                                    </button>
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-chocolate-g" class="nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">G.</h5>
+                                                        <i class="bi bi-cup-straw fs-1"></i>
+                                                    </button>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cardapio-cha">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-3 card custom-border" style="width: 20rem;">
+                                        <img class=" card-img-top rounded-circle p-5 "  style="width: 20rem; height: 20em;" src="/img/cha-cardapio.jpg" alt="Chá">
+                                        <div class="card-body">
+                                            <h5 class="fw-bold mt-2 card-title mb-3">
+                                                <div class="row">
+                                                    <div class="col text-start">
+                                                        Chá
+                                                    </div>
+                                                    <div class="col text-end color-text">
+                                                        <div class="tab-content">
+                                                            <div class="tab-pane active" id="preco-cha-p">
+                                                                R$8.00
+                                                            </div>
+                                                            <div class="tab-pane" id="preco-cha-m">
+                                                                R$10.00
+                                                            </div>
+                                                            <div class="tab-pane" id="preco-cha-g">
+                                                                R$12.00
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div></h5>
+                                            <p class="card-text text-body-secondary fs-6 lead lh-sm">
+                                                Nosso chá é uma infusão suave e aromática, preparada com folhas selecionadas para oferecer um sabor delicado e refrescante.
+                                            </p>
+                                            <nav class="nav nav-pills justify-content-center nav-preco">
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-cha-p" class="active nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">P.</h5>
+                                                        <i class="bi bi-cup-straw fs-5"></i>
+                                                    </button>
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-cha-m" class="nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">M.</h5>
+                                                        <i class="bi bi-cup-straw fs-3"></i>
+                                                    </button>
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-cha-g" class="nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">G.</h5>
+                                                        <i class="bi bi-cup-straw fs-1"></i>
+                                                    </button>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 card custom-border" style="width: 20rem;">
+                                        <img class=" card-img-top rounded-circle p-5 "  style="width: 20rem; height: 20em;" src="/img/matcha-cardapio.jpg" alt="Matcha">
+                                        <div class="card-body">
+                                            <h5 class="fw-bold mt-2 card-title mb-3">
+                                                <div class="row">
+                                                    <div class="col text-start">
+                                                        Matcha
+                                                    </div>
+                                                    <div class="col text-end color-text">
+                                                        <div class="tab-content">
+                                                            <div class="tab-pane active" id="preco-matcha-p">
+                                                                R$8.00
+                                                            </div>
+                                                            <div class="tab-pane" id="preco-matcha-m">
+                                                                R$10.00
+                                                            </div>
+                                                            <div class="tab-pane" id="preco-matcha-g">
+                                                                R$12.00
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div></h5>
+                                            <p class="card-text text-body-secondary fs-6 lead lh-sm">
+                                                O matcha é um chá verde em pó de alta qualidade, que proporciona uma experiência rica e vibrante, com um sabor vegetal e um toque de doçura.
+                                            </p>
+                                            <nav class="nav nav-pills justify-content-center nav-preco">
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-matcha-p" class="active nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">P.</h5>
+                                                        <i class="bi bi-cup-straw fs-5"></i>
+                                                    </button>
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-matcha-m" class="nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">M.</h5>
+                                                        <i class="bi bi-cup-straw fs-3"></i>
+                                                    </button>
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-matcha-g" class="nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">G.</h5>
+                                                        <i class="bi bi-cup-straw fs-1"></i>
+                                                    </button>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 card custom-border" style="width: 20rem;">
+                                        <img class=" card-img-top rounded-circle p-5 "  style="width: 20rem; height: 20em;" src="/img/cha-gelado-cardapio.jpg" alt="Chá Gelado">
+                                        <div class="card-body">
+                                            <h5 class="fw-bold mt-2 card-title mb-3">
+                                                <div class="row">
+                                                    <div class="col text-start">
+                                                        Chá Gelado
+                                                    </div>
+                                                    <div class="col text-end color-text">
+                                                        <div class="tab-content">
+                                                            <div class="tab-pane active" id="preco-cha-gelado-p">
+                                                                R$8.00
+                                                            </div>
+                                                            <div class="tab-pane" id="preco-cha-gelado-m">
+                                                                R$10.00
+                                                            </div>
+                                                            <div class="tab-pane" id="preco-cha-gelado-g">
+                                                                R$12.00
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div></h5>
+                                            <p class="card-text text-body-secondary fs-6 lead lh-sm">
+                                                O chá gelado é uma bebida refrescante e levemente adoçada, perfeita para dias quentes, combinando o sabor do chá com uma sensação refrescante.
+                                            </p>
+                                            <nav class="nav nav-pills justify-content-center nav-preco">
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-cha-gelado-p" class="active nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">P.</h5>
+                                                        <i class="bi bi-cup-straw fs-5"></i>
+                                                    </button>
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-cha-gelado-m" class="nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">M.</h5>
+                                                        <i class="bi bi-cup-straw fs-3"></i>
+                                                    </button>
+                                                    <button type="button" data-bs-toggle="tab" data-bs-target="#preco-cha-gelado-g" class="nav-link me-3 color-text">
+                                                        <h5 class="fs-6 fw-bold">G.</h5>
+                                                        <i class="bi bi-cup-straw fs-1"></i>
+                                                    </button>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cardapio-comida">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-3 card custom-border" style="width: 20rem;">
+                                        <img class=" card-img-top rounded-circle p-5 "  style="width: 20rem; height: 20em;" src="/img/cookie-cardapio.jpg" alt="Cookie">
+                                        <div class="card-body">
+                                            <h5 class="fw-bold mt-2 card-title mb-3">
+                                                <div class="row">
+                                                    <div class="col text-start">
+                                                        Cookie
+                                                    </div>
+                                                    <div class="col text-end color-text">
+                                                        <div>
+                                                            <div class="" id="preco-cookie-p">
+                                                                R$5.00
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div></h5>
+                                            <p class="card-text text-body-secondary fs-6 lead lh-sm">
+                                                O cookie é macio e saboroso, com pedaços generosos de chocolate que derretem na boca, proporcionando uma deliciosa experiência doce.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 card custom-border" style="width: 20rem;">
+                                        <img class=" card-img-top rounded-circle p-5 "  style="width: 20rem; height: 20em;" src="/img/croassant-cardapio.jpg" alt="Croissant">
+                                        <div class="card-body">
+                                            <h5 class="fw-bold mt-2 card-title mb-3">
+                                                <div class="row">
+                                                    <div class="col text-start">
+                                                        Croissant
+                                                    </div>
+                                                    <div class="col text-end color-text">
+                                                        <div>
+                                                            <div class="" id="preco-cookie-p">
+                                                                R$5.00
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div></h5>
+                                            <p class="card-text text-body-secondary fs-6 lead lh-sm">
+                                                O croissant é amanteigado e folhado, com uma crosta dourada e um interior leve e macio, perfeito para um café da manhã ou lanche elegante.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 card custom-border" style="width: 20rem;">
+                                        <img class=" card-img-top rounded-circle p-5 "  style="width: 20rem; height: 20em;" src="/img/lanche-cardapio.jpg" alt="Lanche Natural">
+                                        <div class="card-body">
+                                            <h5 class="fw-bold mt-2 card-title mb-3">
+                                                <div class="row">
+                                                    <div class="col text-start">
+                                                        Lanche Natural
+                                                    </div>
+                                                    <div class="col text-end color-text">
+                                                        <div>
+                                                            <div class="" id="preco-cookie-p">
+                                                                R$5.00
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div></h5>
+                                            <p class="card-text text-body-secondary fs-6 lead lh-sm">
+                                                O lanche natural é leve e nutritivo, feito com ingredientes frescos e saudáveis, ideal para uma refeição rápida e equilibrada.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="processos" class="pt-5 pb-5">
+            <div class="container ">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 fs-1">Processos do nosso <span class="color-text2">café</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col mb-3 d-flex justify-content-center">
+                        <div class="card custom-border" style="width: 20rem; height: 34rem;">
+                            <img src="/img/Colheita.jpg" class="card-img-top" alt="colheita">
+                            <div class="card-body">
+                            <h5 class="card-title  fs-3"><span class="color-text">1.</span> Colheita</h5>
+                            <p class="card-text lead lh-sm">A colheita do nosso café é realizada com extrema atenção, escolhendo os grãos no momento exato de maturação para garantir que cada xícara ofereça um sabor autêntico e equilibrado.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-3 d-flex justify-content-center">
+                        <div class="card custom-border" style="width: 20rem; height: 34rem;">
+                            <div class="card-body">
+                            <h5 class="card-title  fs-3"><span class="color-text">2.</span> Seleção de Grãos</h5>
+                            <p class="card-text lead lh-sm">Após a colheita, os grãos passam por uma rigorosa seleção, onde apenas os mais perfeitos e uniformes são escolhidos, assegurando uma qualidade superior em todo o lote.</p>
+                            </div>
+                            <img src="/img/Seleção de Grãos.jpg" class="card-img-bottom" alt="Seleção de Grãos">
+                        </div>
+                    </div>
+                    <div class="col mb-3 d-flex justify-content-center">
+                        <div class="card custom-border" style="width: 20rem; height: 34rem;">
+                            <img src="/img/Torrefação.jpg" class="card-img-top" alt="Torrefação">
+                            <div class="card-body">
+                            <h5 class="card-title fs-3"><span class="color-text ">3.</span> Torrefação</h5>
+                            <p class="card-text lead lh-sm">Na última etapa, o café é cuidadosamente torrado de forma artesanal, revelando as notas mais ricas e complexas dos grãos, criando uma experiência sensorial única.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 fs-1">Fale <span class="color-text">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label ">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label ">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label ">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label ">Sua mensagem</label>
+                                <textarea class="form-control"  id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row mt-5">
+                            <h3 class="section-title fs-4 lead">
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-2">
+                                    <a href="#">
+                                        <i class="bi bi-facebook color-text"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-2 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram color-text"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-2">
+                                    <a href="#">
+                                        <i class="bi bi-tiktok color-text"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-2">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp color-text"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 lead">
+                                Endereço
+                            </h3>
+                            <p class="color-text fs-5">
+                                Rua teste Exemplo nº 145, Bairro teste - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer pt-5 ">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <p class="font-secundaria color-text2 ">
+                        &copy; 2024 FlipSide - Todos os direitos reservados
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
